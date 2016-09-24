@@ -1,7 +1,14 @@
-## The following information comes from the features_info.txt file
+# CodeBook
 
-Feature Selection 
-=================
+This document describes the data, the variables, and the modifications that were performed in order to obtain a tidy dataset for the assignment.
+
+Data were collected from accelerometers from the Samsung Galaxy S smartphone.
+
+The following link contains a full decription of data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+And the following information comes from the features_info.txt file:
+
+**Feature Selection**
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -59,6 +66,8 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
+
+Finally, the following information is related to the performed changes in order to clean up the data:
 
 ## 1. Merge the training and the test sets to create one dataset
 
